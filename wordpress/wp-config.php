@@ -87,3 +87,7 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+
+update_option('siteurl','http://sawbones.local/');
+update_option('home','http://sawbones.local/');
